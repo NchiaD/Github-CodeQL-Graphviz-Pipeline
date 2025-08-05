@@ -1,0 +1,45 @@
+---
+sourceLocationPrefix: C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\src\example\Java
+baselineLinesOfCode: 16
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+inProgress:
+  primaryLanguage: java
+  installedExtractors:
+    actions:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/actions
+    cpp:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/cpp
+    csharp:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/csharp
+    csv:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/csv
+    go:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/go
+    html:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/html
+    java:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/java
+    javascript:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/javascript
+    properties:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/properties
+    python:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/python
+    ruby:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/ruby
+    rust:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/rust
+    swift:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/swift
+    xml:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/xml
+    yaml:
+     - C:/Users/nchia/Documents/Github-CodeQL-Graphviz-Pipeline/codeql/yaml
+creationMetadata:
+  cliVersion: 2.22.2
+  creationTime: 2025-08-05T04:43:15.223642600Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: false

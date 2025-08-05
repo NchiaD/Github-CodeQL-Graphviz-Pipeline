@@ -1,0 +1,10 @@
+[2025-08-05 15:09:52] This is codeql database index-files --include-extension=.yaml --include-extension=.yml --size-limit=5m --language yaml -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\db\python-db
+[2025-08-05 15:09:52] Log file was started late.
+[2025-08-05 15:09:52] Using index-files script C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\yaml\tools\index-files.cmd.
+[2025-08-05 15:09:52] [PROGRESS] database index-files> Scanning for files in C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\src\example\python...
+[2025-08-05 15:09:52] Calling plumbing command: codeql resolve files --include-extension=.yaml --include-extension=.yml --size-limit=5m C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\src\example\python --format=json
+[2025-08-05 15:09:52] [PROGRESS] resolve files> Scanning C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\src\example\python...
+[2025-08-05 15:09:52] Plumbing command codeql resolve files completed:
+                      [ ]
+[2025-08-05 15:09:52] [DETAILS] database index-files> Found 0 files.
+[2025-08-05 15:09:52] Terminating normally.

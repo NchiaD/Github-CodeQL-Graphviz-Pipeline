@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\src\example\python
+baselineLinesOfCode: 9
+unicodeNewlines: false
+columnKind: utf32
+primaryLanguage: python
+creationMetadata:
+  cliVersion: 2.22.2
+  creationTime: 2025-08-05T07:09:29.826166700Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

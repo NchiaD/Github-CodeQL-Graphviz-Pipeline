@@ -1,0 +1,41 @@
+[T 04:43:17 33200] Initializing tracer.
+[T 04:43:17 33200] Initializing tags.
+[T 04:43:17 33200] CodeQL CLI version 2.22.2
+[T 04:43:17 33200] Initializing tracer.
+[T 04:43:17 33200] Initializing tags.
+[T 04:43:17 33200] Allocated ID 608EC21E000081B0_0000000000000001 (parent )
+[T 04:43:19 33200] ==== Candidate to intercept: C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\tools\win64\runner.exe (21640) ====
+[T 04:43:19 33200] Lua: === Intercepted call to c:\users\nchia\documents\github-codeql-graphviz-pipeline\codeql\tools\win64\runner.exe ===
+[T 04:43:19 33200] Executing the following tracer actions:
+[T 04:43:19 33200] Tracer actions:
+[T 04:43:19 33200] pre_invocations(0)
+[T 04:43:19 33200] post_invocations(0)
+[T 04:43:19 33200] trace_languages(1): [java]
+[T 04:43:19 21640] Initializing tracer.
+[T 04:43:19 21640] Initializing tags.
+[T 04:43:19 21640] ID set to 608EC21E000081B0_0000000000000001 (parent root)
+[T 04:43:19 21640] Allocated ID 5768D52200005488_0000000000000001 (parent 608EC21E000081B0_0000000000000001)
+[T 04:43:19 21640] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (14064) ====
+[T 04:43:19 21640] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 04:43:19 21640] Executing the following tracer actions:
+[T 04:43:19 21640] Tracer actions:
+[T 04:43:19 21640] pre_invocations(0)
+[T 04:43:19 21640] post_invocations(0)
+[T 04:43:19 21640] trace_languages(1): [java]
+[T 04:43:19 14064] Initializing tracer.
+[T 04:43:19 14064] Initializing tags.
+[T 04:43:19 14064] ID set to 5768D52200005488_0000000000000001 (parent 608EC21E000081B0_0000000000000001)
+[T 04:43:19 14064] Allocated ID A7A411A4000036F0_0000000000000001 (parent 5768D52200005488_0000000000000001)
+[T 04:43:19 14064] ==== Candidate to intercept: C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\tools\win64\java\bin\java.exe (29500) ====
+[T 04:43:19 14064] Lua: === Intercepted call to c:\users\nchia\documents\github-codeql-graphviz-pipeline\codeql\tools\win64\java\bin\java.exe ===
+[T 04:43:19 14064] Executing the following tracer actions:
+[T 04:43:19 14064] Tracer actions:
+[T 04:43:19 14064] pre_invocations(0)
+[T 04:43:19 14064] post_invocations(0)
+[T 04:43:19 14064] trace_languages(1): [java]
+[T 04:43:20 29500] Initializing tracer.
+[T 04:43:20 29500] Initializing tags.
+[T 04:43:20 29500] ID set to A7A411A4000036F0_0000000000000001 (parent 5768D52200005488_0000000000000001)
+[T 04:43:20 29500] Passing through -javaagent:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 04:43:20 29500] Passing through -Xbootclasspath/a:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 04:43:20 29500] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
