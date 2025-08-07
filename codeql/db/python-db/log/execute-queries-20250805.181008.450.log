@@ -1,0 +1,85 @@
+[2025-08-05 18:10:08] This is codeql execute queries -J-Xmx3395M --off-heap-ram=3910 --verbosity=progress --logdir=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --dynamic-join-order-mode=none --output=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\results\deps.bqrs -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:10:08] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --format=json -- path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:10:09] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql) at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:10:09] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies\\PythonDependencyGraph.ql"
+                      ]
+[2025-08-05 18:10:09] Refusing fancy output: The terminal is not an xterm: 
+[2025-08-05 18:10:09] Creating executor with 1 threads.
+[2025-08-05 18:10:10] Calling plumbing command: codeql resolve extensions --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --include-extension-row-locations path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:10:10] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --allow-library-packs --format startingpacks -- path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:10:10] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql) at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:10:10] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies"
+                      ]
+[2025-08-05 18:10:10] Calling plumbing command: codeql resolve extensions-by-pack --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --include-extension-row-locations -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies
+[2025-08-05 18:10:10] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-08-05 18:10:10] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-08-05 18:10:10] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-08-05 18:10:10] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-08-05 18:10:10] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-08-05 18:10:10] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --query=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql --format=json
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Found enclosing pack 'dependencies' at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\nchia\.codeql\compile-cache.
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Resolving library dependencies from C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:10] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-08-05 18:10:10] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-08-05 18:10:10] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> QL pack dependencies for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies resolved OK.
+[2025-08-05 18:10:10] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2025-08-05 18:10:10] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies"
+                        ],
+                        "compilationCache" : [
+                          "C:\\Users\\nchia\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "dependencies\\PythonDependencyGraph.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies or an enclosing directory.",
+                        "qlPackName" : "dependencies"
+                      }
+[2025-08-05 18:10:10] [PROGRESS] execute queries> Compiling query plan for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:10] [DETAILS] execute queries> Resolving imports for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:11] Resolved file set for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql hashes to d9d697c2395a3e02896703311b6b3fca.
+[2025-08-05 18:10:11] [DETAILS] execute queries> Checking QL for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:10:11] Stale frontend caches are invalidated based on import graph reachability.
+[2025-08-05 18:10:11] ExternalModuleBindingPass ...
+[2025-08-05 18:10:11] ExternalModuleBindingPass time: 00:00.003
+[2025-08-05 18:10:11] CollectInstantiationsPass ...
+[2025-08-05 18:10:11] CollectInstantiationsPass time: 00:00.016
+[2025-08-05 18:10:11] Ql checks ...
+[2025-08-05 18:10:11] Ql checks time: 00:00.119
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: could not parse type name (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:10,27-43)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: expected a term but found an expression instead (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:10,7-43)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: expected an expression but found a term instead (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:11,3-22)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: extraneous input 'exists' expecting one of: '(', Lowerid (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:10,20-26)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: unexpected input '|' expecting one of: '::' (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:10,42-43)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: unexpected input ')' expecting one of: <EOF>, 'and', 'as', 'boolean', 'class', 'newtype', 'date', 'float', 'from', 'implies', 'import', 'in', 'instanceof', 'int', 'module', 'or', 'order', 'predicate', 'select', 'string', 'where', '<', '<=', '=', '>', '>=', '-', ',', '!=', '/', '.', '*', '%', '+', Lowerid, Upperid, Atlowerid, '/**' (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:12,1-2)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: could not resolve module python (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:7,8-14)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: could not resolve type Module (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:9,6-12)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: could not resolve type Module (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:9,17-23)
+[2025-08-05 18:10:11] [ERROR] execute queries> ERROR: could not resolve type  (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:10,27-43)
+[2025-08-05 18:10:11] [WARN] execute queries> WARNING: unused variable 'm2' (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:9,24-26)
+[2025-08-05 18:10:11] Sequence stamp origin is -6018844290259576861
+[2025-08-05 18:10:11] Pausing evaluation to close the cache at sequence stamp o+0
+[2025-08-05 18:10:11] The disk cache is freshly trimmed; leave it be.
+[2025-08-05 18:10:11] Unpausing evaluation
+[2025-08-05 18:10:11] This NaiveBuddyAllocator requested 0 eviction rounds.
+[2025-08-05 18:10:12] Exiting with code 2

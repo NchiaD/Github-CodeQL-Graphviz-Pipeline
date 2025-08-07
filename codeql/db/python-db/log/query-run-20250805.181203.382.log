@@ -1,0 +1,13 @@
+[2025-08-05 18:12:03] This is codeql query run --database=codeql\db\python-db --output=codeql\results\deps.bqrs codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:03] Log file was started late.
+[2025-08-05 18:12:03] Calling plumbing command: codeql resolve ram --dataset=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python --format=json
+[2025-08-05 18:12:03] [PROGRESS] resolve ram> Stringpool size measured as 2154906
+[2025-08-05 18:12:03] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx3395M",
+                        "--off-heap-ram=3910"
+                      ]
+[2025-08-05 18:12:03] Spawning plumbing command: execute queries -J-Xmx3395M --off-heap-ram=3910 --verbosity=progress --logdir=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --dynamic-join-order-mode=none --output=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\results\deps.bqrs -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:09] [ERROR] Spawned process exited abnormally (code 2; tried to run: [C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\tools\win64\java\bin\java.exe, -Xmx3395M, "-Djava.library.path=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\tools\win64\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\nchia\Downloads\maven-mvnd-1.0.2-windows-amd64\maven-mvnd-1.0.2-windows-amd64\bin;C:\Users\nchia\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nchia\AppData\Local\Programs\Python\Python313\;C:\Users\nchia\AppData\Local\Programs\Python\Launcher\;C:\Users\nchia\AppData\Local\Microsoft\WindowsApps;C:\Users\nchia\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Graphviz\bin;C:\Users\nchia\AppData\Roaming\npm;.", -cp, C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\tools\codeql.jar, com.semmle.cli2.CodeQL, env_argv, execute, queries, -J-Xmx3395M, _, _, _, _, _, _, _, _, --, _, _])
+[2025-08-05 18:12:09] Plumbing command codeql execute queries terminated with status 2.
+[2025-08-05 18:12:09] Exiting with code 2

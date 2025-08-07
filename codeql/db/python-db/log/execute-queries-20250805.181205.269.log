@@ -1,0 +1,105 @@
+[2025-08-05 18:12:05] This is codeql execute queries -J-Xmx3395M --off-heap-ram=3910 --verbosity=progress --logdir=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\log --evaluator-log-level=5 --warnings=show --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --dynamic-join-order-mode=none --output=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\results\deps.bqrs -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:05] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --format=json -- path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:06] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql) at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:12:06] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies\\PythonDependencyGraph.ql"
+                      ]
+[2025-08-05 18:12:06] Refusing fancy output: The terminal is not an xterm: 
+[2025-08-05 18:12:06] Creating executor with 1 threads.
+[2025-08-05 18:12:06] Calling plumbing command: codeql resolve extensions --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --include-extension-row-locations path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:06] Calling plumbing command: codeql resolve queries --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --allow-library-packs --format startingpacks -- path:C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql
+[2025-08-05 18:12:06] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql) at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:12:06] Plumbing command codeql resolve queries completed:
+                      [
+                        "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies"
+                      ]
+[2025-08-05 18:12:07] Calling plumbing command: codeql resolve extensions-by-pack --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --include-extension-row-locations -- C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies
+[2025-08-05 18:12:07] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-08-05 18:12:07] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-08-05 18:12:07] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-08-05 18:12:07] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-08-05 18:12:07] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-08-05 18:12:07] Calling plumbing command: codeql resolve library-path --qlconfig-file=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\qlconfig.yml --query=C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql --format=json
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Resolving query at normalized path C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Found enclosing pack 'dependencies' at C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies.
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Adding compilation cache at C:\Users\nchia\.codeql\compile-cache.
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Resolving library dependencies from C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-08-05 18:12:07] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-08-05 18:12:07] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> QL pack dependencies for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies resolved OK.
+[2025-08-05 18:12:07] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2025-08-05 18:12:07] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies"
+                        ],
+                        "compilationCache" : [
+                          "C:\\Users\\nchia\\.codeql\\compile-cache"
+                        ],
+                        "relativeName" : "dependencies\\PythonDependencyGraph.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in C:\\Users\\nchia\\Documents\\Github-CodeQL-Graphviz-Pipeline-1\\codeql\\queries\\dependencies or an enclosing directory.",
+                        "qlPackName" : "dependencies"
+                      }
+[2025-08-05 18:12:07] [PROGRESS] execute queries> Compiling query plan for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] [DETAILS] execute queries> Resolving imports for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] Resolved file set for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql hashes to 77291f2198be2f85a179ec2050cc91c5.
+[2025-08-05 18:12:07] [DETAILS] execute queries> Checking QL for C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql.
+[2025-08-05 18:12:07] Stale frontend caches are invalidated based on import graph reachability.
+[2025-08-05 18:12:08] ExternalModuleBindingPass ...
+[2025-08-05 18:12:08] ExternalModuleBindingPass time: 00:00.003
+[2025-08-05 18:12:08] CollectInstantiationsPass ...
+[2025-08-05 18:12:08] CollectInstantiationsPass time: 00:00.013
+[2025-08-05 18:12:08] Ql checks ...
+[2025-08-05 18:12:08] Ql checks time: 00:00.132
+[2025-08-05 18:12:08] [ERROR] execute queries> ERROR: could not resolve module python (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:7,8-14)
+[2025-08-05 18:12:08] [ERROR] execute queries> ERROR: could not resolve type Import (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:9,6-12)
+[2025-08-05 18:12:08] [ERROR] execute queries> ERROR: could not resolve type Importable (C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\queries\dependencies\PythonDependencyGraph.ql:9,16-26)
+[2025-08-05 18:12:08] Sequence stamp origin is -6018843788470354589
+[2025-08-05 18:12:08] Pausing evaluation to close the cache at sequence stamp o+0
+[2025-08-05 18:12:08] The disk cache is freshly trimmed; leave it be.
+[2025-08-05 18:12:08] Unpausing evaluation
+[2025-08-05 18:12:08] [WARN] Failed to delete C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python\default\strings\0 (attempt 1)
+                             java.nio.file.FileSystemException: C:\Users\nchia\Documents\Github-CodeQL-Graphviz-Pipeline-1\codeql\db\python-db\db-python\default\strings\0: The process cannot access the file because it is being used by another process
+                             	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+                             	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+                             	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+                             	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+                             	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+                             	at java.base/java.nio.file.Files.delete(Unknown Source)
+                             	at com.semmle.util.files.FileUtil8.delete(FileUtil8.java:361)
+                             	at com.semmle.util.files.FileUtil8.deleteIfExists(FileUtil8.java:394)
+                             	at com.semmle.util.files.FileUtil8.lambda$deleteWithRetries$10(FileUtil8.java:628)
+                             	at com.semmle.util.files.FileUtil8.performWithRetries(FileUtil8.java:559)
+                             	at com.semmle.util.files.FileUtil8.deleteWithRetries(FileUtil8.java:627)
+                             	at com.semmle.inmemory.util.DiskPool.deleteFiles(DiskPool.java:244)
+                             	at com.semmle.inmemory.util.SequentialDiskPool.deleteFiles(SequentialDiskPool.java:15)
+                             	at com.semmle.inmemory.stringpool.IntensionalGeneration.deleteFiles(IntensionalGeneration.java:81)
+                             	at com.semmle.inmemory.stringpool.StringPool.closePool(StringPool.java:662)
+                             	at com.semmle.inmemory.MemoryBackend.close(MemoryBackend.java:192)
+                             	at com.semmle.cli2.ql.EvaluationCommon.close(EvaluationCommon.java:219)
+                             	at com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:467)
+                             	at com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:892)
+                             	at com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:444)
+                             	at com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:890)
+                             	at com.semmle.cli2.picocli.SubcommandCommon.toplevelMain(SubcommandCommon.java:777)
+                             	at com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:757)
+                             	at com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:238)
+                             	at com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:259)
+                             	at com.semmle.cli2.CodeQL.main(CodeQL.java:113)
+[2025-08-05 18:12:09] This NaiveBuddyAllocator requested 0 eviction rounds.
+[2025-08-05 18:12:09] Exiting with code 2
